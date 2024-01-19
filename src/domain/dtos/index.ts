@@ -1,0 +1,6 @@
+export * from './service/service.dto'
+export * from './auth/auth-register.dto'
+export * from './auth/auth-login.dto'
+export * from './appointment/appointment.dto'
+export * from './auth/auth-forgot-password.dto'
+export * from './auth/auth-update-password.dto'
