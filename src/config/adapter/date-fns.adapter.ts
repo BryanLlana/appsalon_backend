@@ -3,7 +3,7 @@ import { parse, formatISO, startOfDay, endOfDay } from 'date-fns'
 export class DateFnsAdapter {
   static convertToISO (date: string) {
     const newDate = parse(date, 'dd/MM/yyyy', new Date())
-    newDate.setHours(1)
+    newDate.setHours(5)
     return formatISO(newDate)
   }
 
